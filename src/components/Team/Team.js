@@ -139,6 +139,20 @@ const teamMembers = [
     link_type: "LinkedIn",
     link_url: "https://www.linkedin.com/in/jacob-munene-4561a4153/",
   },
+
+  {
+    first_name: "Franklin",
+    last_name: "Munger",
+    position: "Marketing",
+    username: null,
+    img_url: "https://i.imgur.com/4FXBARW.jpg",
+    description_1:
+      "I was there when they wrote the Declaration of Independence.",
+    description_2:
+      "I am the author of Poor Charlie' Almanac.",
+    link_type: "LinkedIn",
+    link_url: "https://www.linkedin.com/in/tademidun/",
+  },
 ];
 
 function TeamMemberCard({ teamMember, showLinkedin = true }) {
